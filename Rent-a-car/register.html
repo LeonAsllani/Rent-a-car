@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="jeep.png" alt=""></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="listsofcars.html">Lists of cars</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#signin">Sign in</a></li>
+        </ul>
+
+    </header>
+
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <h1>Login</h1>
+
+                <form action="#">
+                    <div class="field input-field" id="email_error">
+                        <input type="email" placeholder="Email" class="input" >
+                    </div>
+
+                    <div class="field input-field" id="pass_error">
+                        <input type="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+                    
+                </form>
+
+                <div class="form-link">
+                    <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+           
+
+        </div>
+
+        <div class="form signup">
+            <div class="form-content">
+                <h1>Signup</h1>
+
+                <form action="#">
+                    <div class="field input-field" id="email_error">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field" id="pass_error">
+                        <input type="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field input-field" id="pass_error">
+                        <input type="password" placeholder="Re-Enter password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Signup</button>
+                    </div>
+                    
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+           
+
+        </div>
+    </section>
+
+    <script src="register.js"></script>
+    
+</body>
+</html>
